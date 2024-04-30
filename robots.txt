@@ -1,4 +1,4 @@
-Sitemap: sitemap.xml
+Sitemap: https://www.tamaspapp.eu/BayesianDSGEEstimation.jl/sitemap.xml
 
 User-agent: *
 Disallow:
