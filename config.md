@@ -15,9 +15,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = false
-website_title = "Bayesian estimation of nonlinear DSGE models"
+website_title = "Project websiteBayesian estimation of nonlinear DSGE models"
 website_descr = "Project website for the Austrian National Bank (OeNB) Jubiläumsfonds grant #18847"
-website_url   = ""
+website_url   = "https://www.tamaspapp.eu/BayesianDSGEEstimation.jl/"
 +++
 
 <!--
