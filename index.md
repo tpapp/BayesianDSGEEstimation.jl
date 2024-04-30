@@ -1,6 +1,6 @@
 @def title = "Overview"
 
-This is the website for the project "Bayesian estimation of DSGE models using global nonlinear approximations and hierarchical continuation", supported by the Austrian National Bank (OeNB) Jubiläumsfonds grant #18847.
+This is the website for the project **"Bayesian estimation of DSGE models using global nonlinear approximations and hierarchical continuation"**, supported by the *Austrian National Bank (OeNB) Jubiläumsfonds grant #18847*.
 
 # Participants
 

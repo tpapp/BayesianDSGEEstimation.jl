@@ -5,6 +5,24 @@ https://github.com/pmarsceill/just-the-docs/blob/master/LICENSE.txt
 (MIT licensed)
 */
 
+:root {
+    --ihs-red: #bc0444;
+    --light-red: #f2e6e7;
+    --ihs-dark-grey: #2d373c;
+    --ihs-light-grey: #f3f3f3;
+    --ihs-link-color: #00917d;
+    --block-background: hsl(0, 0%, 94%);
+    --output-background: hsl(0, 0%, 98%);
+    --small: 14px;
+    --normal: 19px;
+    /* --text-color: hsv(0, 0%, 20%); */
+}
+
+h1 a {
+    color: var(--ihs-red);
+    text-decoration: none;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -93,7 +111,7 @@ h6 {
   margin-bottom: 0.8em;
   font-weight: 500;
   line-height: 1.15;
-  color: #27262b;
+  color: var(--ihs-red);
 }
 
 p {
@@ -101,8 +119,7 @@ p {
 }
 
 a {
-  color: #0e39b0;
-  text-decoration: none;
+  color: var(--ihs-red);
 }
 
 pre {
@@ -117,7 +134,7 @@ code {
   line-height: 1.4;
   padding: 0.2em 0.15em;
   font-weight: 400;
-  background-color: #f5f6fa;
+  background-color: #faf5f6;
   border: 1px solid #eeebee;
   border-radius: 4px;
 }
@@ -155,7 +172,7 @@ hr {
 /************************************************************
 =============================================================
 
-SIDE BAR
+side BAR
 
 ============================================================
 ************************************************************/
@@ -164,7 +181,7 @@ SIDE BAR
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f5f6fa;
+  background-color: var(--light-red);
 }
 
 .side-bar .header {
@@ -195,7 +212,7 @@ SIDE BAR
   line-height: 60px;
   padding: 1rem;
   align-items: center;
-  color: #0e39b0;
+  color: --ihs-red;
   text-transform: uppercase;
   background: transparent;
   text-align: right;
@@ -498,7 +515,8 @@ h3,
 h4,
 h5,
 h6 {
-  position: relative;
+    position: relative;
+    color: --ihs-red;
 }
 
 td.fndef-backref {
@@ -532,7 +550,7 @@ td {
   padding: 0.5em 10px;
   font-style: italic;
 }
-
+v
 .franklin-content blockquote p {
   display: inline;
 }
